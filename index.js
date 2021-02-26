@@ -1,9 +1,7 @@
-// TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
-const generateMarkdown = require ('./utils/generateMarkdown.js')
+const generateMarkdown = require('./utils/generateMarkdown.js')
 
-// TODO: Create an array of questions for user input
 const questions = [
     {
         type: 'input',
@@ -15,52 +13,42 @@ const questions = [
         name: 'description',
         message: 'Describe what the project is about.'
     },
-    // {
-    //     type: 'input',
-    //     name: 'contents',
-    //     message: 'Create a table of contents.'
-    // },
+    {
+        type: 'confirm',
+        name: 'contents',
+        message: 'Would you like to include a Table of Contents?'
+    },
     {
         type: 'input',
         name: 'installation',
         message: 'Give instruction on how to install the project.'
     },
-    // {
-    //     type: 'input',
-    //     name: 'usage',
-    //     message: 'Describe what the project can be used for?'
-    // },
-        {
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Describe what the project can be used for?'
+    },
+    {
         type: 'list',
         name: 'license',
         message: 'Does the project have a license? Choose from the following options', 
-        choices: ['MIT', 'none']
+        choices: ['MIT', 'Apache', 'none']
     },
-    // {
-    //     type: 'input',
-    //     name: 'contributors',
-    //     message: 'List the contributors to the project.'
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'tests',
-    //     message: 'List if any tests were performed.'
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'FAQ',
-    //     message: 'List common questions and their answers.'  
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'github',
-    //     message: 'Enter your GitHub username.'  
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'email',
-    //     message: 'Enter your email.'  
-    // }
+    {
+        type: 'input',
+        name: 'contributing',
+        message: '1) List contributors or 2) Describe how others can contribute or 3) Enter to skip.'
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: '1) List if any tests were performed or 2) Enter to skip.'
+    },
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'Enter your GitHub username and email.'  
+    },
 ];
 
 // TODO: Create a function to write README file
@@ -71,10 +59,10 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() { 
     inquirer.prompt(questions)
-    .then((response) => {
-        var test = generateMarkdown(response);
-        console.log(test);
-        writeToFile("README2.md", test)
+    .then((answers) => {
+        var response = generateMarkdown(answers);
+        //console.log(response);
+        writeToFile("README2.md", response)
     })
 
 }

@@ -36,7 +36,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributing',
+        name: 'contribution',
         message: '1) List contributors or 2) Describe how others can contribute or 3) Enter to skip.'
     },
     {
@@ -51,21 +51,17 @@ const questions = [
     },
 ];
 
-// TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFileSync(fileName, data);
 }
 
-// TODO: Create a function to initialize app
 function init() { 
     inquirer.prompt(questions)
     .then((answers) => {
         var response = generateMarkdown(answers);
-        //console.log(response);
         writeToFile("README2.md", response)
     })
 
 }
 
-// Function call to initialize app
 init();

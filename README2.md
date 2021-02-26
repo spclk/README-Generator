@@ -1,18 +1,15 @@
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  # My Title
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  # Cool project
   ## Description
-  It provides you with all of the awesome features
+  all the cool things
 ## Table of Contents 
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributions](#contributions)
   * [Questions](#questions)
   ## Installation 
-  navigate to the link
+  go to the website linked
   ## Usage 
-  all the awesome things
-  ## Contributing
-  Please email me if you want to contribute
+  anything cool
   ## Questions? 
-  my email
+  my site

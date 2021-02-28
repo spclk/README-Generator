@@ -17,5 +17,5 @@
   [Video](https://drive.google.com/file/d/1OGlcF3daCouqfrA2uCwdns0Gn7Q1qcv6/view)
 
   And here's a screenshot:
-  ![screenshot](README generator.png)
+  ![screenshot](README-generator.png)
 

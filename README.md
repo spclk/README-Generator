@@ -12,3 +12,10 @@
   ## Questions? 
   https://github.com/spclk 
   konstantin1020@gmail.com
+
+  Here's a link to my tutorial video:
+  [Video](https://drive.google.com/file/d/1OGlcF3daCouqfrA2uCwdns0Gn7Q1qcv6/view)
+
+  And here's a screenshot:
+  ![screenshot](README generator.png)
+

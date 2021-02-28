@@ -6,8 +6,9 @@
   * [Usage](#usage)
   * [Questions](#questions)
   ## Installation 
-  Feel free to fork my code and run it with Node.js
+  Feel free to fork my code and run it with Node.js. Enter "node index.js" in Terminal and then simply answer the questions. 
   ## Usage 
   It is a great tool to quickly generate READMEs for GitHub or any other purpose. 
   ## Questions? 
-  https://github.com/spclk
+  https://github.com/spclk 
+  konstantin1020@gmail.com

@@ -1,4 +1,6 @@
 # README generator
+!(https://img.shields.io/github/issues/spclk/Note-Taker)
+!(https://img.shields.io/badge/Contributors-1-green)
   ## Description
   This app generates a high-quality README. This app is created for the purposes of simplifying the process of generating README files with markdown styling. It is also created, in part, to demonstate my ability to work with Node.js, Comman Line Interface, and JavaScript.   
 ## Table of Contents 
@@ -10,8 +12,7 @@
   ## Usage 
   It is a great tool to quickly generate READMEs for GitHub or any other purpose. 
   ## Questions? 
-  https://github.com/spclk 
-  konstantin1020@gmail.com
+  Contact me through: https://github.com/spclk
 
   Here's a link to my tutorial video:
   [Video](https://drive.google.com/file/d/1OGlcF3daCouqfrA2uCwdns0Gn7Q1qcv6/view)
